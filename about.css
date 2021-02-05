@@ -1,0 +1,128 @@
+
+body{
+	background-color: #F7EEE5 !important;
+}
+
+.title h2{
+	padding-top: 3%;
+	font:Helvetica Bold;
+	font-size: 5rem;
+	color: #E68359;
+	text-align: center;
+	text-decoration: none;
+}
+.title h2:hover{
+	color: #8D9B6A;
+
+}
+.nav-link p {
+	font-size: 16px;
+	color: #8D9B6A;
+	font-family:Georgia;
+	margin-right: 10px;
+	margin-left: 10px;
+}
+.navbar ul{
+	margin-left: auto;
+    margin-right: auto;
+}
+.navbar li a {
+    display: block;
+    text-decoration: none;
+    margin-right:;   /* space between links */
+    margin-left: ;
+    width: auto;   /* adjust width as needed or use auto */
+    padding: 10px;
+    font-weight: italic;
+    line-height: 0.15em;
+    color:#1e5799;
+    border-right: 1px solid white;
+}
+
+
+nav li:last-child a {
+    border:none;
+}
+.navbar li a p:hover {
+ 	color: #EDB286;
+}
+
+/*.navbar-toggler-icon{
+	padding: 10px;
+}
+*/
+.custom-toggler.navbar-toggler {
+  border-color:#E68359;
+}
+
+.custom-toggler .navbar-toggler-icon {
+  background-image: url(
+"data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgb(230, 131, 89)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E");
+}
+
+.heading h3{
+  text-align: center;
+	color: #636261;
+	font-size: 3rem;
+	font-family: 'Athelas';
+	text-shadow: -2px 1px #F7EEE4;
+}
+
+.subheading{
+text-align: center;
+color: #F7EEE5;
+font-size: 2.1rem;
+font-family: 'Athelas';
+
+}
+.info p{
+  font-family: "Helvetica Neue";
+  font-size: 1.5rem;
+  font-weight: 400;
+  line-height: 2;
+  margin-bottom: 1.25rem;
+  text-align:center;
+  margin: 2rem 5.6rem;
+}
+
+
+.about{
+    padding: 5%;
+    background-color: #EDB286;
+}
+
+.how{
+    padding: 5%;
+    background: #F7EEE5;
+}
+.what{
+    padding:5%;
+    background-color: #8D9B6A ;
+}
+
+.left img{
+	  	position: absolute;
+	    left: 0rem;
+		top: 37rem;
+	    width: auto;
+	    max-width: 35% ;
+	    margin: 0rem auto;
+	    height: 18rem;
+}
+
+.right img{
+	position: absolute;
+	right: 0rem;
+	top: 37rem;
+	width: auto;
+    max-width: 35%;
+    margin: 0rem auto;
+    height: 18rem;
+}
+
+
+.name{
+	font:Helvetica Bold;
+	font-size: 2.5rem;
+	color: #E68359;
+}

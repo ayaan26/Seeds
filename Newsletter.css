@@ -1,0 +1,167 @@
+body {
+    font-family:"Source Sans Pro",arial,helvetica;
+    color:#8D9B6A;
+    font-size:20px;
+    background-color: #EDB286;
+    text-align:center;
+
+}
+body{
+    background-color: #F7EEE5 !important;
+    
+}
+
+.main{
+    padding-top: 5%;
+    background-color: #EDB286;
+    padding-bottom: 7%;
+    z-index: 2;
+
+}
+
+.name{
+	font:Helvetica Bold;
+	font-size: 40px;
+	color: #E68359;
+}
+
+footer a{
+    font:"Source Sans Pro",arial,helvetica;
+    font-size: 13px;
+    color: #8D9B6A !important;
+}
+
+footer {
+    font:"Source Sans Pro",arial,helvetica;
+    font-size: 13px;
+    margin-top:15px;
+}
+
+.leafL {
+    z-index:0;
+    position:absolute;
+    left: 0%;
+    top:45%;
+    float:left;
+}
+
+.leafR {
+    z-index:0;
+    position:absolute;
+    right:0%;
+    top:25%;
+}
+
+.nav-link p {
+	font-size: 16px;
+	color: #8D9B6A;
+	font-family:Georgia; 
+	margin-right: 10px;
+	margin-left: 10px;
+}
+
+
+.navbar ul{
+	margin-left: auto;
+/*	margin-top: 20px;*/
+    margin-right: auto;
+    text-align: center;
+}
+.navbar li a {
+    display: inline-block;
+    text-decoration: none;
+    text-align:center;
+    margin-right: ;   /* space between links */
+    margin-left: ;
+    width: auto;   /* adjust width as needed or use auto */
+    padding: 10px;
+    font-weight: italic;
+    line-height: 0.15em;
+    color:#1e5799;
+    border-right: 1px solid white;
+}
+
+nav li:last-child a {
+    border:none;
+}
+
+.navbar li a p:hover {
+ 	color: #EDB286;
+}
+
+h5 {
+    color: #61694a;
+    font-size: 35px;
+}
+
+.intro {
+    margin-left: 15%;
+    margin-right: 15%;
+    font-size: 14px;
+    margin-bottom: 3%;
+}
+
+h4 {
+    color: #F7EEE5;
+    padding:90px;
+    transition: 0.5s;
+}
+
+h4:hover {
+    font-size: 40px;
+}
+
+
+#row1 {
+    margin-top: 5%;
+}
+
+.form1 {
+    margin-left: auto;
+    margin-right:auto;
+    width: 300px;
+    color: #61694a;
+    font-size: 15px;
+}
+
+.signform {
+    font-family: Arial;
+    text-align: left;
+    font-size: 15px;
+}
+
+.formlabels {
+    font-size: 14px;   
+}
+
+.formlabels {
+    font-size: 14px;   
+}
+
+#privacy {
+    font-size: 10px;  
+    text-align: center; 
+}
+
+input {
+    font-size: 15px;
+}
+
+.btn {
+    background-color: rgb(221, 211, 202);
+    border: none;
+    color: #61694a;
+    padding: 8px 16px;
+    text-align: center;
+    font-size: 16px;
+    margin: 4px 2px;
+    transition: 0.3s;
+  }
+  
+  .btn:hover {
+    background-color: #F7EEE5;
+    color: #c49470;
+    font-size: 18px;
+  }
+
+
